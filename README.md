@@ -28,4 +28,4 @@ Chains({ foo: 'bar' })
     });
 ```
 
-Unhandled and thrown errors are also passed to the catch handler. If you do not specify a catch handler errors will fail silently, so
+Unhandled and thrown errors are also passed to the catch handler. If you do not specify a catch handler, your code may fail silently.
