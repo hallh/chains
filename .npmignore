@@ -1,0 +1,7 @@
+src
+.editorconfig
+.eslintrc
+.eslintignore
+test
+coverage
+example.js
