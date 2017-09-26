@@ -1,0 +1,36 @@
+{
+  "name": "c4s",
+  "version": "1.0.0",
+  "description": "Control-flow lib using middleware style handlers and promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./scripts/test.sh",
+    "coverage": "./scripts/cover.sh",
+    "build": "./scripts/build.sh",
+    "prepublish": "./scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:hallh/chains.git"
+  },
+  "keywords": [
+    "control",
+    "flow",
+    "promise",
+    "chain",
+    "middleware"
+  ],
+  "author": "https://github.com/hallh",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "isparta": "^4.0.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {}
+}
