@@ -12,7 +12,7 @@ export const Chains = (state) => {
 
 
     // Create internal objects
-    let _state = Object.create(state || {});
+    let _state = Object.assign({}, state || {});
     let _promise = Promise.resolve();
 
 
