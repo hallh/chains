@@ -1,6 +1,6 @@
 {
   "name": "c4s",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control-flow lib using middleware style handlers and promises.",
   "main": "index.js",
   "scripts": {
